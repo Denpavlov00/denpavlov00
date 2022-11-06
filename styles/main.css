@@ -1,0 +1,345 @@
+@font-face {
+  font-family: GeoSlab703;
+  src: url("../assets/fonts/geoslab703md.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: GeoSlab703;
+  src: url("../assets/fonts/geoslab703bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Roboto Flex";
+  src: url("../assets/fonts/RobotoFlex-VariableFont_GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf");
+  font-weight: 100 1000;
+  font-stretch: 25% 180%;
+  font-style: normal;
+}
+.font-gs {
+  font-family: GeoSlab703;
+}
+
+.highlight {
+  z-index: 1;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.highlight > * {
+  grid-area: 1/1;
+}
+.highlight > img {
+  z-index: -1;
+}
+
+.header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  padding-top: 20px;
+}
+@media (min-width: 1440px) {
+  .header {
+    padding-top: 80px;
+    gap: 65px;
+  }
+}
+.header__logo,
+.header .nav-link {
+  color: #F2F2F2;
+}
+.header__links {
+  gap: 40px;
+}
+@media (min-width: 1440px) {
+  .header__links {
+    gap: 65px;
+  }
+}
+.header .nav-link {
+  text-transform: uppercase;
+}
+.header .nav-link:hover, .header .nav-link.active {
+  background-color: #3BC4F4;
+  color: #F2F2F2;
+}
+
+.showreel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.showreel video {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  filter: brightness(20%);
+}
+.showreel__overlay {
+  z-index: 1;
+}
+.showreel__overlay > p {
+  color: white;
+  font-size: 36px;
+  line-height: 42px;
+}
+.showreel__overlay .felt-1 {
+  text-transform: uppercase;
+}
+.showreel__overlay .felt-1 p {
+  font-weight: 135;
+  font-size: 24px;
+  line-height: 28px;
+  font-stretch: 25%;
+  font-variation-settings: "GRAD" 150, "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738, "opsz" 22;
+  margin: unset;
+}
+.showreel__overlay .felt-1 strong {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: black;
+  font-stretch: 100%;
+  font-variation-settings: "GRAD" 150, "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+}
+
+.activities {
+  background: #F2F2F2;
+  padding: 100px 0;
+}
+.activities h2 {
+  font-weight: 769;
+  font-size: 49px;
+  line-height: 57px;
+  font-stretch: 151%;
+  font-variation-settings: "GRAD" -112, "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738, "opsz" 37;
+  margin-bottom: 30px;
+}
+.activities .menu-item button {
+  position: relative;
+  border: none;
+  outline: none;
+}
+.activities .menu-item button span {
+  position: absolute;
+  width: 27px;
+  height: 8px;
+  background-color: #3BC4F4;
+  left: 0;
+  top: calc(50% - 2px);
+}
+.activities .menu-item button p {
+  margin-bottom: unset;
+  margin-left: 30px;
+  font-size: 32px;
+  line-height: 72px;
+  font-stretch: 100%;
+  font-variation-settings: "GRAD" 0, "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738, "opsz" 14;
+}
+.activities__btn {
+  padding: 0 18px;
+  background: #3BC4F4;
+  margin-left: auto;
+  margin-top: auto;
+  display: inline-flex;
+  text-decoration: none;
+  align-items: center;
+  color: #232323;
+}
+.activities__btn:hover {
+  color: #232323;
+}
+.activities__btn span {
+  font-variation-settings: "GRAD" -110, "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738, "opsz" 14, "wdth" 100;
+  font-size: 26px;
+  line-height: 58.16px;
+}
+.activities__btn strong {
+  font-size: 29px;
+  line-height: 223.69%;
+}
+.activities__btn svg {
+  color: #F2F2F2;
+  margin-left: 17px;
+}
+
+.indicators {
+  color: white;
+  padding-top: 120px;
+  padding-bottom: 210px;
+}
+.indicators h2 {
+  margin-bottom: 120px;
+  font-stretch: 50%;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 47px;
+}
+.indicators h2 span {
+  color: #232323;
+  font-stretch: 151%;
+  font-variation-settings: "GRAD" 150, "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738, "opsz" 14;
+}
+.indicators svg {
+  color: #3BC4F4;
+}
+.indicators__icon {
+  height: 70px;
+}
+.indicators span {
+  font-stretch: 100%;
+  font-variation-settings: "GRAD" 0, "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738, "opsz" 14;
+}
+.indicators__counter {
+  font-weight: 620;
+  font-size: 40px;
+  line-height: 47px;
+}
+.indicators__text {
+  font-size: 18px;
+  line-height: 21px;
+}
+.indicators .felt-2 {
+  margin-left: 5px;
+}
+
+.stages {
+  background: #F2F2F2;
+  padding: 100px 0 120px;
+}
+.stages h2 {
+  margin-bottom: 80px;
+  color: black;
+  font-weight: 400;
+  font-size: 49px;
+  line-height: 57px;
+  font-stretch: 50%;
+  font-variation-settings: "GRAD" 0, "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738, "opsz" 14;
+}
+.stages h2 span {
+  font-stretch: 151%;
+  font-variation-settings: "GRAD" 150, "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738, "opsz" 14;
+}
+.stages .scenes {
+  row-gap: 70px;
+}
+.stages .scene__title {
+  display: grid;
+  margin-bottom: -3px;
+}
+.stages .scene__title span {
+  grid-area: 1/1;
+  font-weight: 100;
+  font-size: 23px;
+  line-height: 27px;
+  color: black;
+  font-variation-settings: "GRAD" 0, "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738, "opsz" 14;
+}
+.stages .scene__title span:last-child {
+  color: #232323;
+  margin: 0 auto;
+}
+.stages .scene__content {
+  display: grid;
+  border: 3px solid #000000;
+  margin-bottom: 10px;
+}
+.stages .scene img {
+  grid-area: 1/1;
+  aspect-ratio: 3/2;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.stages .scene__text {
+  color: #232323;
+  font-weight: 800;
+  font-size: 27px;
+  line-height: 32px;
+  font-stretch: 100;
+  font-variation-settings: "GRAD" 0, "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738, "opsz" 14;
+}
+.stages .scene__text span {
+  font-weight: 400;
+}
+
+.typing {
+  height: 540px;
+  color: white;
+}
+.typing p {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  font-stretch: 100%;
+  font-variation-settings: "GRAD" 0, "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738, "opsz" 14;
+}
+.typing span {
+  color: #3BC4F4;
+}
+
+.portfolio__title {
+  background: #F2F2F2;
+  height: 200px;
+}
+.portfolio h2 {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: black;
+  font-stretch: 50%;
+  font-variation-settings: "GRAD" -117, "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738, "opsz" 14;
+}
+.portfolio h2 span {
+  margin-left: 5px;
+  color: #F2F2F2;
+  font-weight: 800;
+  font-stretch: 150%;
+  font-variation-settings: "GRAD" 150, "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738, "opsz" 144;
+}
+.portfolio__case {
+  border: 1px solid black;
+  padding: unset;
+}
+.portfolio__case-wrap {
+  width: 100%;
+  aspect-ratio: 9/5;
+  background: #3BC4F4;
+}
+
+.typing-2 {
+  height: 200px;
+  color: #F2F2F2;
+}
+.typing-2 p {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 42px;
+  font-stretch: 150%;
+  font-variation-settings: "GRAD" 0, "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738, "opsz" 8;
+}
+
+.team {
+  height: 100vh;
+  background: #F2F2F2;
+}
+.team img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+* {
+  font-family: "Roboto Flex";
+}
+
+body {
+  background-color: #232323;
+}

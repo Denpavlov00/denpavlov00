@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/vendor/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="/styles/main.css" />
+
+    <link rel="stylesheet" href="/styles/style.css" />
+    <title>Main Page</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+
+    <div class="preloader">
+        <p class="animate-typing"
+        
+             data-type-speed="200"
+        
+             data-type-delay="200"
+        
+             data-remove-speed="50"
+        
+             data-remove-delay="500"><span>nada</span> набраться терпения</p><span class="blinking-cursor active">_</span>
+    </div>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid align-items-end">
+          <a class="navbar-brand header__logo" href="#"
+            ><svg
+              width="160"
+              height="40"
+              viewBox="0 0 160 40"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9.96099 17.4055C11.2586 16.1223 12.7618 15.0623 14.4089 14.2688C15.8469 13.6217 17.4085 13.2909 18.9869 13.2987C21.6865 13.2987 23.695 14.0182 24.996 15.4734C26.297 16.9286 26.9638 19.1518 26.9638 22.1591V34.0673H30.5091V39.3787H16.9947V34.0673H20.5725V23.5577C20.6461 22.4227 20.2729 21.3036 19.5317 20.4372C19.1429 20.0562 18.6775 19.7613 18.166 19.5718C17.6545 19.3823 17.1084 19.3025 16.5637 19.3377C15.3793 19.3433 14.2177 19.6613 13.1973 20.2593C11.9551 21.0028 10.8541 21.9578 9.94477 23.0807V34.0511H13.5144V39.3626H0V34.0511H3.56971V19.2488H0V13.9616H9.96099V17.4055Z"
+                fill="currentColor"
+              ></path>
+              <path
+                d="M60.1812 34.0673H63.7509V39.3787H53.8143V36.6624C52.7724 37.728 51.524 38.5726 50.1446 39.145C48.7652 39.7175 47.2833 40.006 45.7885 39.9931C44.0523 40.0503 42.3232 39.7454 40.7126 39.098C39.102 38.4505 37.6457 37.4749 36.4374 36.2339C34.0755 33.6049 32.7747 30.2005 32.7852 26.6755C32.7957 23.1505 34.1168 19.7538 36.4943 17.1387C37.685 15.8851 39.1281 14.8951 40.7296 14.2334C42.3311 13.5717 44.0549 13.2532 45.7885 13.2987C47.2522 13.275 48.7051 13.5502 50.0575 14.1071C51.4585 14.7157 52.7327 15.5794 53.8143 16.6537V13.9293H63.7509V19.2164H60.1812V34.0673ZM39.2834 26.6782C39.2446 27.6817 39.4065 28.6829 39.7596 29.6238C40.1127 30.5646 40.6502 31.4265 41.3407 32.1594C42.7555 33.5283 44.6519 34.2943 46.6261 34.2943C48.6004 34.2943 50.4967 33.5283 51.9115 32.1594C52.6142 31.4374 53.1635 30.5822 53.5267 29.6447C53.8899 28.7072 54.0596 27.7066 54.0257 26.7025C54.0588 25.693 53.888 24.6871 53.5235 23.7442C53.159 22.8014 52.6081 21.9408 51.9034 21.2132C50.4999 19.8274 48.6043 19.0463 46.6263 19.0387C44.6483 19.0312 42.7467 19.7978 41.3325 21.1728C39.9432 22.6658 39.2062 24.6457 39.2834 26.6782Z"
+                fill="currentColor"
+              ></path>
+              <path
+                d="M84.4051 0H94.2848V34.0673H97.8626V39.3787H87.926V36.6624C86.8831 37.729 85.6335 38.5741 84.2526 39.1466C82.8716 39.7192 81.3882 40.0071 79.8921 39.9931C78.157 40.0507 76.429 39.7459 74.8197 39.0984C73.2104 38.4509 71.7556 37.4751 70.5491 36.2339C68.1895 33.6043 66.8895 30.201 66.8985 26.677C66.9075 23.153 68.2249 19.7564 70.5979 17.1388C71.7886 15.8851 73.2317 14.8951 74.8332 14.2334C76.4347 13.5718 78.1585 13.2533 79.8921 13.2987C81.3558 13.2751 82.8087 13.5502 84.1611 14.1071C85.5635 14.7175 86.84 15.5809 87.926 16.6537V5.3114H84.4051V0ZM73.3951 26.6782C73.3628 27.679 73.5325 28.6761 73.8942 29.6106C74.2559 30.545 74.8024 31.398 75.5012 32.119C76.9038 33.5112 78.8047 34.2931 80.7866 34.2931C82.7685 34.2931 84.6695 33.5112 86.072 32.119C87.4303 30.6159 88.1817 28.6666 88.1817 26.6459C88.1817 24.6253 87.4303 22.676 86.072 21.1728C85.3849 20.4838 84.5673 19.9369 83.6664 19.5636C82.7655 19.1904 81.7992 18.9982 80.8232 18.9982C79.8472 18.9982 78.8809 19.1904 77.98 19.5636C77.0791 19.9369 76.2615 20.4838 75.5744 21.1728C74.8574 21.8976 74.2949 22.7588 73.9205 23.7048C73.546 24.6507 73.3673 25.662 73.3951 26.6782Z"
+                fill="currentColor"
+              ></path>
+              <path
+                d="M127.989 34.0673H131.558V39.3787H121.622V36.6624C120.581 37.7299 119.333 38.5757 117.953 39.1483C116.574 39.7209 115.091 40.0084 113.596 39.9931C111.861 40.0507 110.133 39.7459 108.523 39.0984C106.914 38.4509 105.459 37.4751 104.253 36.2339C101.888 33.6067 100.585 30.2026 100.594 26.677C100.603 23.1515 101.924 19.754 104.302 17.1387C105.492 15.8851 106.935 14.8951 108.537 14.2334C110.138 13.5717 111.862 13.2532 113.596 13.2987C115.06 13.275 116.512 13.5502 117.865 14.1071C119.266 14.7157 120.54 15.5794 121.622 16.6537V13.9293H131.558V19.2164H127.989V34.0673ZM107.099 26.6782C107.059 27.6812 107.22 28.682 107.571 29.6229C107.923 30.5637 108.459 31.4258 109.148 32.1594C110.564 33.5264 112.46 34.2911 114.433 34.2911C116.407 34.2911 118.303 33.5264 119.719 32.1594C121.081 30.6579 121.834 28.708 121.834 26.6863C121.834 24.6647 121.081 22.7147 119.719 21.2132C118.315 19.8274 116.42 19.0463 114.442 19.0387C112.464 19.0312 110.562 19.7978 109.148 21.1728C107.759 22.6658 107.022 24.6457 107.099 26.6782Z"
+                fill="currentColor"
+              ></path>
+              <path
+                d="M159.174 34.0673H138.414V39.3787H159.174V34.0673Z"
+                fill="currentColor"
+              ></path></svg></a
+          ><button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto header__links">
+              <li class="nav-item fs-6 fs-xl-4">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Главная</a
+                >
+              </li>
+              <li class="nav-item fs-6 fs-xl-4">
+                <a class="nav-link" href="#">Направления</a>
+              </li>
+              <li class="nav-item fs-6 fs-xl-4">
+                <a class="nav-link" href="#">Этапы работ</a>
+              </li>
+              <li class="nav-item fs-6 fs-xl-4">
+                <a class="nav-link" href="#">Портфолио</a>
+              </li>
+              <li class="nav-item fs-6 fs-xl-4">
+                <a class="nav-link" href="#">Отзывы</a>
+              </li>
+              <li class="nav-item fs-6 fs-xl-4">
+                <a class="nav-link" href="#">Контакты</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="showreel">
+      <div class="showreel__overlay text-center">
+        <p>мы знаем как <strong class="font-gs">nada</strong></p>
+        <div class="highlight felt-1">
+          <p>cмотреть <strong>showreel</strong></p>
+          <image src="/assets/images/felt-1.png"></image>
+        </div>
+      </div>
+      <video autoplay loop muted poster="showreel.png">
+        <source src="/assets/video/showreel.mp4" type="video/mp4" />
+      </video>
+    </section>
+    <section class="activities">
+      <div class="container">
+        <div class="row">
+          <div class="col-12"><h2>направления</h2></div>
+          <div class="col-12 col-xl-8">
+            <div class="menu">
+              <div class="menu-item">
+                <span></span>
+                <div class="menu-header">
+                   
+                  <button
+                    class="menu-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#persona"
+                  >
+                    
+                    <p>имиджевые видео</p>
+                  </button>
+                </div>
+                <div
+                  class="menu-body menu-collapse collapse"
+                  id="persona"
+                  data-bs-parent=".menu"
+                >
+                  <div class="tab-cont">
+                    <div class="image"></div>
+                  <div class="image"></div>
+                  <div class="image"></div>
+                  <div class="image"></div>
+                  <div class="image"></div>
+                  <div class="image"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="menu-item">
+                <span></span>
+                <div class="menu-header">
+                  <button
+                    class="menu-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#adv"
+                  >
+                    
+                    <p>рекламные видео</p>
+                  </button>
+                </div>
+                <div
+                  class="menu-collapse collapse"
+                  id="adv"
+                  data-bs-parent=".menu"
+                >
+                  <div class="menu-body">
+                    <strong>This is the second item's accordion body.</strong>
+                    It is hidden by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.menu-body</code>, though the transition
+                    does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="menu-item">
+                <span></span>
+                <div class="menu-header">
+                  <button
+                    class="menu-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#creative"
+                  >
+                    
+                    <p>креатив</p>
+                  </button>
+                </div>
+                <div
+                  class="menu-collapse collapse"
+                  id="creative"
+                  data-bs-parent=".menu"
+                >
+                  <div class="menu-body">
+                    <strong>This is the third item's accordion body.</strong> It
+                    is hidden by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.menu-body</code>, though the transition
+                    does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="menu-item">
+                <span></span>
+                <div class="menu-header">
+                  <button
+                    class="menu-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#digital"
+                  >
+                    
+                    <p>digital-проекты</p>
+                  </button>
+                </div>
+                <div
+                  class="menu-collapse collapse"
+                  id="digital"
+                  data-bs-parent=".menu"
+                >
+                  <div class="menu-body">
+                    <strong>This is the third item's accordion body.</strong> It
+                    is hidden by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.menu-body</code>, though the transition
+                    does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="menu-item">
+                <span></span>
+                <div class="menu-header">
+                  <button
+                    class="menu-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#shows"
+                  >
+                    
+                    <p>шоу</p>
+                  </button>
+                </div>
+                <div
+                  class="menu-collapse collapse"
+                  id="shows"
+                  data-bs-parent=".menu"
+                >
+                  <div class="menu-body">
+                    <strong>This is the third item's accordion body.</strong> It
+                    is hidden by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.menu-body</code>, though the transition
+                    does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="menu-item">
+                <span></span>
+                <div class="menu-header">
+                  <button
+                    class="menu-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#series"
+                  >
+                    
+                    <p>сериалы</p>
+                  </button>
+                </div>
+                <div
+                  class="menu-collapse collapse"
+                  id="series"
+                  data-bs-parent=".menu"
+                >
+                  <div class="menu-body">
+                    <strong>This is the third item's accordion body.</strong> It
+                    is hidden by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.menu-body</code>, though the transition
+                    does limit overflow.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-xl-4 d-flex">
+            <a class="activities__btn" href="#"
+              ><span><strong class="font-gs">nada</strong> глянуть презу</span
+              ><svg
+                width="29"
+                height="28"
+                viewBox="0 0 29 28"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_70_5)">
+                  <path
+                    d="M14.1141 24.457L14.4996 24.9233L14.885 24.4569L23.9878 13.4397L24.6641 12.6213L23.6023 12.6213L19.0547 12.6213L19.0547 2.38877e-06L19.0547 -0.499998L18.5547 -0.499998L10.4402 -0.499999L9.94022 -0.499999L9.94022 7.95135e-07L9.94022 12.6213L5.39258 12.6213L4.33056 12.6213L5.00719 13.4398L14.1141 24.457ZM16.8105 14.3375L16.8105 14.8375L17.3105 14.8375L19.9354 14.8375L14.4995 21.4137L9.06368 14.8375L11.6927 14.8375L12.1927 14.8375L12.1927 14.3375L12.1927 1.71625L16.8105 1.71625L16.8105 14.3375Z"
+                    fill="currentColor"
+                    stroke="currentColor"
+                  ></path>
+                  <path
+                    d="M29.5 26.7838L29.5 26.2838L29 26.2838L8.74228e-08 26.2838L-0.5 26.2838L-0.5 26.7838L-0.5 28L-0.5 28.5L-3.00078e-07 28.5L29 28.5L29.5 28.5L29.5 28L29.5 26.7838Z"
+                    fill="currentColor"
+                    stroke="currentColor"
+                  ></path>
+                </g>
+                <defs>
+                  <clipPath id="clip0_70_5">
+                    <rect width="29" height="28" fill="white"></rect>
+                  </clipPath>
+                </defs></svg
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="indicators">
+      <div class="container">
+        <h2 class="d-flex align-items-center justify-content-center">
+          факты о
+          <div class="highlight felt-2">
+            <span>нас</span><img src="/assets/images/felt-2.png" />
+          </div>
+        </h2>
+        <div class="row">
+          <div
+            class="col-12 col-md-6 col-xl-3 mb-5 mb-xl-0 d-flex flex-column align-items-center gap-1 gap-xl-4 text-center"
+          >
+            <i class="indicators__icon"
+              ><svg
+                width="53"
+                height="68"
+                viewBox="0 0 53 68"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M38.3233 29.4158H8.4707V32.5928H38.3233V29.4158Z"
+                  fill="currentColor"
+                ></path>
+                <path
+                  d="M38.3233 41.4778H8.4707V44.6548H38.3233V41.4778Z"
+                  fill="currentColor"
+                ></path>
+                <path
+                  d="M38.3233 53.5388H8.4707V56.7158H38.3233V53.5388Z"
+                  fill="currentColor"
+                ></path>
+                <path
+                  d="M45.9345 0.728516H5.59813V6.88343H0V61.1975C0 64.5005 2.89686 67.1893 6.45664 67.1893H46.793V61.2801H52.3901V6.72034C52.3901 3.41626 49.4943 0.728516 45.9345 0.728516ZM6.45664 64.0102C4.64556 64.0102 3.17176 62.7468 3.17176 61.1954V10.0604H27.8354V17.3548H8.47069V20.5318H27.8354V24.178H43.6213V64.0102H6.45664ZM49.2184 58.1031H46.793V22.1924L29.8611 6.88343H8.7699V3.90552H45.9345C47.7456 3.90552 49.2184 5.16785 49.2184 6.72034V58.1031Z"
+                  fill="currentColor"
+                ></path></svg></i
+            ><span data-num="2983" class="indicators__counter">0</span
+            ><span class="indicators__text">страницы<br />сценария</span>
+          </div>
+          <div
+            class="col-12 col-md-6 col-xl-3 mb-5 mb-xl-0 d-flex flex-column align-items-center gap-1 gap-xl-4 text-center"
+          >
+            <i class="indicators__icon"
+              ><svg
+                width="63"
+                height="57"
+                viewBox="0 0 63 57"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M60.5723 53.5132H1.95703V56.6902H60.5723V53.5132Z"
+                  fill="currentColor"
+                ></path>
+                <path
+                  d="M55.2621 0.913574H0.390625V42.3205C0.3937 44.1452 1.11868 45.8943 2.40679 47.1845C3.6949 48.4747 5.44112 49.201 7.26278 49.204H62.1343V7.79708C62.1312 5.97241 61.4062 4.22335 60.1181 2.93311C58.83 1.64287 57.0838 0.916654 55.2621 0.913574ZM58.9625 46.027H7.26278C6.28198 46.0251 5.34188 45.6339 4.64835 44.9393C3.95481 44.2446 3.56434 43.303 3.56239 42.3205V4.09058H55.2621C56.2429 4.09254 57.183 4.48367 57.8765 5.17835C58.5701 5.87303 58.9606 6.81466 58.9625 7.79708V46.027Z"
+                  fill="currentColor"
+                ></path>
+                <path
+                  d="M20.1067 25.2717C19.0734 24.3949 17.6197 23.7062 15.7455 23.2056C13.9715 22.7298 12.8342 22.3312 12.3338 22.01C11.8333 21.6888 11.5834 21.2172 11.5842 20.5952C11.5842 19.9527 11.8175 19.4437 12.2841 19.0681C12.7507 18.6925 13.4795 18.5047 14.4705 18.5047C15.4622 18.5047 16.2079 18.7426 16.7076 19.2185C17.2073 19.6943 17.4572 20.3202 17.4572 21.0961V21.3587H21.3067V21.041C21.3067 19.389 20.6818 18.0663 19.4322 17.0729C18.1825 16.0796 16.5244 15.5833 14.4578 15.584C12.3835 15.584 10.732 16.0637 9.50351 17.0232C8.27498 17.9826 7.66037 19.2679 7.65966 20.879C7.66812 22.3722 8.17239 23.5445 9.17255 24.3959C10.1727 25.2474 11.6264 25.9181 13.5337 26.408C15.3078 26.8676 16.4553 27.2912 16.9762 27.6788C17.497 28.0664 17.7575 28.6199 17.7575 29.3394C17.766 29.6632 17.6953 29.9842 17.5516 30.2743C17.4079 30.5645 17.1954 30.815 16.9328 31.0041C16.3831 31.4214 15.5957 31.63 14.5709 31.63C13.5461 31.63 12.7422 31.4069 12.1593 30.9607C11.5841 30.5138 11.2966 29.8431 11.2966 28.9486V28.6605H7.38477V28.9857C7.38477 30.7965 8.05436 32.1732 9.39355 33.1158C10.7327 34.0583 12.4634 34.5309 14.5857 34.5338C16.7185 34.5338 18.4327 34.054 19.7282 33.0946C21.0237 32.1351 21.6707 30.7927 21.6693 29.0672C21.6609 27.413 21.14 26.1479 20.1067 25.2717Z"
+                  fill="currentColor"
+                ></path>
+                <path
+                  d="M36.1151 25.2717C35.0818 24.3949 33.6281 23.7062 31.7539 23.2056C29.9785 22.7298 28.8412 22.3312 28.3422 22.01C27.8432 21.6888 27.5922 21.2172 27.5894 20.5952C27.5894 19.9527 27.8223 19.4437 28.2882 19.0681C28.7541 18.6925 29.4833 18.5047 30.4757 18.5047C31.4674 18.5047 32.2131 18.7426 32.7129 19.2185C33.2126 19.6943 33.4624 20.3202 33.4624 21.0961V21.3587H37.3162V21.041C37.3162 19.389 36.6909 18.0663 35.4406 17.0729C34.1902 16.0796 32.5338 15.5833 30.4715 15.584C28.3971 15.584 26.7454 16.0637 25.5161 17.0232C24.2869 17.9826 23.6726 19.2679 23.6733 20.879C23.6818 22.3722 24.1857 23.5445 25.1852 24.3959C26.1846 25.2474 27.6384 25.9181 29.5464 26.408C31.3218 26.8676 32.4697 27.2912 32.9899 27.6788C33.51 28.0664 33.7705 28.6192 33.7712 29.3372C33.7797 29.6611 33.709 29.982 33.5653 30.2722C33.4215 30.5624 33.2091 30.8129 32.9465 31.002C32.396 31.4192 31.6087 31.6279 30.5846 31.6279C29.5605 31.6279 28.7562 31.4048 28.1719 30.9586C27.5975 30.5117 27.3103 29.841 27.3103 28.9465V28.6584H23.3984V28.9835C23.3984 30.7944 24.068 32.1711 25.4072 33.1136C26.7464 34.0561 28.4772 34.5274 30.5994 34.5274C32.733 34.5274 34.4471 34.0477 35.7419 33.0882C37.0367 32.1288 37.6816 30.7884 37.6767 29.0672C37.6682 27.413 37.1477 26.1479 36.1151 25.2717Z"
+                  fill="currentColor"
+                ></path>
+                <path
+                  d="M52.6677 18.1922C51.0134 16.6948 48.9659 15.946 46.525 15.946H40.4141V34.1715H46.525C48.9659 34.1715 51.0134 33.4203 52.6677 31.9179C54.3219 30.4155 55.1487 28.3169 55.148 25.6221V24.4827C55.148 21.7871 54.3212 19.6903 52.6677 18.1922ZM51.2235 25.7111C51.2235 27.5559 50.784 28.9495 49.905 29.892C49.0261 30.8345 47.8786 31.3062 46.4626 31.3069H44.2255V18.8244H46.4626C47.8779 18.8244 49.0254 19.2939 49.905 20.2329C50.7847 21.1719 51.2242 22.5634 51.2235 24.4075V25.7111Z"
+                  fill="currentColor"
+                ></path></svg></i
+            ><span data-num="398" class="indicators__counter">0</span
+            ><span class="indicators__text"
+              >терабайт<br />отснятого материала</span
+            >
+          </div>
+          <div
+            class="col-12 col-md-6 col-xl-3 mb-5 mb-xl-0 d-flex flex-column align-items-center gap-1 gap-xl-4 text-center"
+          >
+            <i class="indicators__icon"
+              ><svg
+                width="62"
+                height="63"
+                viewBox="0 0 62 63"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M54.2006 0.88916H0.134766V42.1087C0.136725 43.9376 0.86295 45.6911 2.15408 46.9844C3.44521 48.2776 5.19575 49.0051 7.02169 49.007H42.8626L53.7523 62.9858H61.0813V47.4185H61.0908V7.78749C61.0888 5.95799 60.3622 4.20404 59.0704 2.91068C57.7785 1.61733 56.0271 0.890281 54.2006 0.88916ZM57.9063 47.4185V59.8088H55.297L44.4073 45.83H7.02169C6.03661 45.8292 5.09214 45.4368 4.39558 44.7391C3.69903 44.0414 3.30737 43.0954 3.30653 42.1087V4.06616H54.2006C55.1857 4.06701 56.1302 4.45934 56.8267 5.15704C57.5233 5.85475 57.915 6.80079 57.9159 7.78749V47.4185H57.9063Z"
+                  fill="currentColor"
+                ></path>
+                <path
+                  d="M45.4952 17.3206H15.6426V20.4976H45.4952V17.3206Z"
+                  fill="currentColor"
+                ></path>
+                <path
+                  d="M45.4952 29.3816H15.6426V32.5586H45.4952V29.3816Z"
+                  fill="currentColor"
+                ></path></svg></i
+            ><span data-num="478" class="indicators__counter">0</span
+            ><span class="indicators__text"
+              >рабочих чатов<br />с заказчиками</span
+            >
+          </div>
+          <div
+            class="col-12 col-md-6 col-xl-3 mb-5 mb-xl-0 d-flex flex-column align-items-center gap-1 gap-xl-4 text-center"
+          >
+            <i class="indicators__icon"
+              ><svg
+                width="64"
+                height="64"
+                viewBox="0 0 64 64"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M31.8076 0.0250233C27.6407 0.0134702 23.5129 0.829977 19.6632 2.42727C15.8134 4.02456 12.3183 6.37091 9.38007 9.33047C6.4254 12.2736 4.08291 15.7745 2.48825 19.6306C0.893591 23.4866 0.0784305 27.6213 0.0899645 31.7951C0.0784305 35.9689 0.893591 40.1035 2.48825 43.9596C4.08291 47.8157 6.4254 51.3166 9.38007 54.2597C12.3183 57.2192 15.8134 59.5656 19.6632 61.1629C23.5129 62.7602 27.6407 63.5767 31.8076 63.5651C35.9745 63.5767 40.1023 62.7602 43.952 61.1629C47.8018 59.5656 51.2969 57.2192 54.2351 54.2597C57.1898 51.3166 59.5323 47.8157 61.127 43.9596C62.7216 40.1035 63.5368 35.9689 63.5252 31.7951C63.5368 27.6213 62.7216 23.4866 61.127 19.6306C59.5323 15.7745 57.1898 12.2736 54.2351 9.33047C51.2969 6.37091 47.8018 4.02456 43.952 2.42727C40.1023 0.829977 35.9745 0.0134702 31.8076 0.0250233ZM33.4992 60.3362V51.9161H30.3274V60.35C15.7976 59.6087 4.10752 47.9226 3.30612 33.3836H11.7198V30.2066H3.30612C4.10752 15.6982 15.7373 4.04923 30.2217 3.24651V33.3836H47.0321V30.2066H33.3935V3.24651C48.3991 4.07359 60.3535 16.5624 60.3535 31.7951C60.3535 46.9928 48.4551 59.4562 33.4992 60.3362Z"
+                  fill="currentColor"
+                ></path></svg></i
+            ><span data-num="23" class="indicators__counter">0</span
+            ><span class="indicators__text"
+              >минуты потребовалось<br />на эту статистику</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="stages">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2>этапы <span>работы</span></h2>
+          </div>
+        </div>
+        <div class="row scenes">
+          <div class="col-12 col-md-6 col-xl-3 scene">
+            <h4 class="scene__title"><span>Scene 1</span><span>BG</span></h4>
+            <div class="scene__content">
+              <img src="/assets/svg/scene1.svg" /><img
+                src="/assets/images/scenes/scene1-hover.svg"
+              />
+            </div>
+            <p class="scene__text">
+              вы рассказываете <span>о том</span>, что nada
+            </p>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3 scene">
+            <h4 class="scene__title"><span>Scene 2</span><span>BG</span></h4>
+            <div class="scene__content">
+              <img src="/assets/svg/scene2.svg" /><img
+                src="/assets/svg/scene2-hover.svg"
+              />
+            </div>
+            <p class="scene__text">мы готовим КП <span>для вас</span></p>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3 scene">
+            <h4 class="scene__title"><span>Scene 3</span><span>BG</span></h4>
+            <div class="scene__content">
+              <img src="/assets/svg/scene3.svg" /><img
+                src="/assets/svg/scene3-hover.svg"
+              />
+            </div>
+            <p class="scene__text"><span>заключаем</span> договор</p>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3 scene">
+            <h4 class="scene__title"><span>Scene 4</span><span>BG</span></h4>
+            <div class="scene__content">
+              <img src="/assets/svg/scene4.svg" /><img
+                src="/assets/svg/scene4-hover.svg"
+              />
+            </div>
+            <p class="scene__text">разрабатываем сценарий</p>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3 scene">
+            <h4 class="scene__title"><span>Scene 5</span><span>BG</span></h4>
+            <div class="scene__content">
+              <img src="/assets/svg/scene5.svg" /><img
+                src="/assets/svg/scene5-hover.svg"
+              />
+            </div>
+            <p class="scene__text">красиво всё <span>снимаем</span></p>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3 scene">
+            <h4 class="scene__title"><span>Scene 6</span><span>BG</span></h4>
+            <div class="scene__content">
+              <img src="/assets/svg/scene6.svg" /><img
+                src="/assets/svg/scene6-hover.svg"
+              />
+            </div>
+            <p class="scene__text">красиво всё <span>монтируем</span></p>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3 scene">
+            <h4 class="scene__title"><span>Scene 7</span><span>BG</span></h4>
+            <div class="scene__content">
+              <img src="/assets/svg/scene7.svg" /><img
+                src="/assets/svg/scene7-hover.svg"
+              />
+            </div>
+            <p class="scene__text">сдаём вам проект</p>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3 scene">
+            <h4 class="scene__title"><span>Scene 8</span><span>BG</span></h4>
+            <div class="scene__content">
+              <img src="/assets/svg/scene8.svg" /><img
+                src="/assets/svg/scene8-hover.svg"
+              />
+            </div>
+            <p class="scene__text">
+              приступаем к обсуждению <span>вашей новой задачи</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="typing d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <p class="mb-0">
+              Живи так, чтобы оставить после себя <span class="text-write " data-speed="120" data-delay="1000">отличный референс</span>
+                   <span class="blinking-cursor">_</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="portfolio">
+      <div class="portfolio-cases container-fluid">
+        <div class="row portfolio__title align-items-center">
+          <div class="col-12">
+            <h2 class="d-flex align-items-center justify-content-center">
+              наши
+              <div class="highlight felt-3">
+                <span>работы</span><img src="/assets/images/felt-3.png" />
+              </div>
+            </h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6 col-xl-4 portfolio__case">
+            <div class="portfolio__case-wrap">
+              <img src="" />
+              <div class="portfolio__link">
+                <a class="d-block" href="#"
+                  ><svg
+                    width="38"
+                    height="20"
+                    viewBox="0 0 38 20"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M33.2763 8.6063e-07H4.72369C4.10325 -0.000364325 3.48885 0.115492 2.91557 0.34095C2.34229 0.566408 1.82139 0.897047 1.38268 1.31395C0.94397 1.73086 0.596036 2.22586 0.358784 2.77064C0.121533 3.31542 -0.000383382 3.89929 9.05648e-07 4.48888V15.5111C-0.000383382 16.1007 0.121533 16.6846 0.358784 17.2294C0.596036 17.7741 0.94397 18.2691 1.38268 18.686C1.82139 19.103 2.34229 19.4336 2.91557 19.659C3.48885 19.8845 4.10325 20.0004 4.72369 20H33.2763C33.8968 20.0004 34.5112 19.8845 35.0844 19.659C35.6577 19.4336 36.1786 19.103 36.6173 18.686C37.056 18.2691 37.404 17.7741 37.6412 17.2294C37.8785 16.6846 38.0004 16.1007 38 15.5111V4.48888C38.0004 3.89929 37.8785 3.31542 37.6412 2.77064C37.404 2.22586 37.056 1.73086 36.6173 1.31395C36.1786 0.897047 35.6577 0.566408 35.0844 0.34095C34.5112 0.115492 33.8968 -0.000364325 33.2763 8.6063e-07ZM13.7882 16.5528V3.72499L25.4805 10.1389L13.7882 16.5528Z"
+                      fill="currentColor"
+                    ></path></svg
+                ></a>
+                <p class="tags">Руслан штурмит на жену 24 часа <br>
+                #лол #ржунимагу #ктотакой #руслан</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-4 portfolio__case">
+            <div class="portfolio__case-wrap">
+              <img src="" />
+              <div class="portfolio__link">
+                <a class="d-block" href="#"
+                  ><svg
+                    width="38"
+                    height="20"
+                    viewBox="0 0 38 20"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M33.2763 8.6063e-07H4.72369C4.10325 -0.000364325 3.48885 0.115492 2.91557 0.34095C2.34229 0.566408 1.82139 0.897047 1.38268 1.31395C0.94397 1.73086 0.596036 2.22586 0.358784 2.77064C0.121533 3.31542 -0.000383382 3.89929 9.05648e-07 4.48888V15.5111C-0.000383382 16.1007 0.121533 16.6846 0.358784 17.2294C0.596036 17.7741 0.94397 18.2691 1.38268 18.686C1.82139 19.103 2.34229 19.4336 2.91557 19.659C3.48885 19.8845 4.10325 20.0004 4.72369 20H33.2763C33.8968 20.0004 34.5112 19.8845 35.0844 19.659C35.6577 19.4336 36.1786 19.103 36.6173 18.686C37.056 18.2691 37.404 17.7741 37.6412 17.2294C37.8785 16.6846 38.0004 16.1007 38 15.5111V4.48888C38.0004 3.89929 37.8785 3.31542 37.6412 2.77064C37.404 2.22586 37.056 1.73086 36.6173 1.31395C36.1786 0.897047 35.6577 0.566408 35.0844 0.34095C34.5112 0.115492 33.8968 -0.000364325 33.2763 8.6063e-07ZM13.7882 16.5528V3.72499L25.4805 10.1389L13.7882 16.5528Z"
+                      fill="currentColor"
+                    ></path></svg
+                ></a>
+                <p class="tags">Руслан штурмит на жену 24 часа <br>
+                #лол #ржунимагу #ктотакой #руслан</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-4 portfolio__case">
+            <div class="portfolio__case-wrap">
+              <img src="" />
+              <div class="portfolio__link">
+                <a class="d-block" href="#"
+                  ><svg
+                    width="38"
+                    height="20"
+                    viewBox="0 0 38 20"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M33.2763 8.6063e-07H4.72369C4.10325 -0.000364325 3.48885 0.115492 2.91557 0.34095C2.34229 0.566408 1.82139 0.897047 1.38268 1.31395C0.94397 1.73086 0.596036 2.22586 0.358784 2.77064C0.121533 3.31542 -0.000383382 3.89929 9.05648e-07 4.48888V15.5111C-0.000383382 16.1007 0.121533 16.6846 0.358784 17.2294C0.596036 17.7741 0.94397 18.2691 1.38268 18.686C1.82139 19.103 2.34229 19.4336 2.91557 19.659C3.48885 19.8845 4.10325 20.0004 4.72369 20H33.2763C33.8968 20.0004 34.5112 19.8845 35.0844 19.659C35.6577 19.4336 36.1786 19.103 36.6173 18.686C37.056 18.2691 37.404 17.7741 37.6412 17.2294C37.8785 16.6846 38.0004 16.1007 38 15.5111V4.48888C38.0004 3.89929 37.8785 3.31542 37.6412 2.77064C37.404 2.22586 37.056 1.73086 36.6173 1.31395C36.1786 0.897047 35.6577 0.566408 35.0844 0.34095C34.5112 0.115492 33.8968 -0.000364325 33.2763 8.6063e-07ZM13.7882 16.5528V3.72499L25.4805 10.1389L13.7882 16.5528Z"
+                      fill="currentColor"
+                    ></path></svg
+                ></a>
+                <p class="tags">Руслан штурмит на жену 24 часа <br>
+                #лол #ржунимагу #ктотакой #руслан</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-4 portfolio__case">
+            <div class="portfolio__case-wrap">
+              <img src="" />
+              <div class="portfolio__link">
+                <a class="d-block" href="#"
+                  ><svg
+                    width="38"
+                    height="20"
+                    viewBox="0 0 38 20"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M33.2763 8.6063e-07H4.72369C4.10325 -0.000364325 3.48885 0.115492 2.91557 0.34095C2.34229 0.566408 1.82139 0.897047 1.38268 1.31395C0.94397 1.73086 0.596036 2.22586 0.358784 2.77064C0.121533 3.31542 -0.000383382 3.89929 9.05648e-07 4.48888V15.5111C-0.000383382 16.1007 0.121533 16.6846 0.358784 17.2294C0.596036 17.7741 0.94397 18.2691 1.38268 18.686C1.82139 19.103 2.34229 19.4336 2.91557 19.659C3.48885 19.8845 4.10325 20.0004 4.72369 20H33.2763C33.8968 20.0004 34.5112 19.8845 35.0844 19.659C35.6577 19.4336 36.1786 19.103 36.6173 18.686C37.056 18.2691 37.404 17.7741 37.6412 17.2294C37.8785 16.6846 38.0004 16.1007 38 15.5111V4.48888C38.0004 3.89929 37.8785 3.31542 37.6412 2.77064C37.404 2.22586 37.056 1.73086 36.6173 1.31395C36.1786 0.897047 35.6577 0.566408 35.0844 0.34095C34.5112 0.115492 33.8968 -0.000364325 33.2763 8.6063e-07ZM13.7882 16.5528V3.72499L25.4805 10.1389L13.7882 16.5528Z"
+                      fill="currentColor"
+                    ></path></svg
+                ></a>
+                <p class="tags">Руслан штурмит на жену 24 часа <br>
+                #лол #ржунимагу #ктотакой #руслан</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-4 portfolio__case">
+            <div class="portfolio__case-wrap">
+              <img src="" />
+              <div class="portfolio__link">
+                <a class="d-block" href="#"
+                  ><svg
+                    width="38"
+                    height="20"
+                    viewBox="0 0 38 20"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M33.2763 8.6063e-07H4.72369C4.10325 -0.000364325 3.48885 0.115492 2.91557 0.34095C2.34229 0.566408 1.82139 0.897047 1.38268 1.31395C0.94397 1.73086 0.596036 2.22586 0.358784 2.77064C0.121533 3.31542 -0.000383382 3.89929 9.05648e-07 4.48888V15.5111C-0.000383382 16.1007 0.121533 16.6846 0.358784 17.2294C0.596036 17.7741 0.94397 18.2691 1.38268 18.686C1.82139 19.103 2.34229 19.4336 2.91557 19.659C3.48885 19.8845 4.10325 20.0004 4.72369 20H33.2763C33.8968 20.0004 34.5112 19.8845 35.0844 19.659C35.6577 19.4336 36.1786 19.103 36.6173 18.686C37.056 18.2691 37.404 17.7741 37.6412 17.2294C37.8785 16.6846 38.0004 16.1007 38 15.5111V4.48888C38.0004 3.89929 37.8785 3.31542 37.6412 2.77064C37.404 2.22586 37.056 1.73086 36.6173 1.31395C36.1786 0.897047 35.6577 0.566408 35.0844 0.34095C34.5112 0.115492 33.8968 -0.000364325 33.2763 8.6063e-07ZM13.7882 16.5528V3.72499L25.4805 10.1389L13.7882 16.5528Z"
+                      fill="currentColor"
+                    ></path></svg
+                ></a>
+                <p class="tags">Руслан штурмит на жену 24 часа <br>
+                #лол #ржунимагу #ктотакой #руслан</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-4 portfolio__case">
+            <div class="portfolio__case-wrap">
+              <img src="" />
+              <div class="portfolio__link">
+                <a class="d-block" href="#"
+                  ><svg
+                    width="38"
+                    height="20"
+                    viewBox="0 0 38 20"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M33.2763 8.6063e-07H4.72369C4.10325 -0.000364325 3.48885 0.115492 2.91557 0.34095C2.34229 0.566408 1.82139 0.897047 1.38268 1.31395C0.94397 1.73086 0.596036 2.22586 0.358784 2.77064C0.121533 3.31542 -0.000383382 3.89929 9.05648e-07 4.48888V15.5111C-0.000383382 16.1007 0.121533 16.6846 0.358784 17.2294C0.596036 17.7741 0.94397 18.2691 1.38268 18.686C1.82139 19.103 2.34229 19.4336 2.91557 19.659C3.48885 19.8845 4.10325 20.0004 4.72369 20H33.2763C33.8968 20.0004 34.5112 19.8845 35.0844 19.659C35.6577 19.4336 36.1786 19.103 36.6173 18.686C37.056 18.2691 37.404 17.7741 37.6412 17.2294C37.8785 16.6846 38.0004 16.1007 38 15.5111V4.48888C38.0004 3.89929 37.8785 3.31542 37.6412 2.77064C37.404 2.22586 37.056 1.73086 36.6173 1.31395C36.1786 0.897047 35.6577 0.566408 35.0844 0.34095C34.5112 0.115492 33.8968 -0.000364325 33.2763 8.6063e-07ZM13.7882 16.5528V3.72499L25.4805 10.1389L13.7882 16.5528Z"
+                      fill="currentColor"
+                    ></path></svg
+                ></a>
+                <p class="tags">Руслан штурмит на жену 24 часа <br>
+                #лол #ржунимагу #ктотакой #руслан</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="typing-2 d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <p class="mb-0">это ещё не всё<span class="blue_span blinking-cursor active">_</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="feedbacks">
+        <div class="container-fluid">
+            <div class="swiper reviews">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="review">
+                        <p>
+                            А вы можете сами придумать себе отзыв? Я под этим подпишусь! 
+                        </p>
+                    </div>
+    
+                    <div class="author">
+                        <div class="pic">
+    
+                        </div>
+                        <div class="name">
+                            <div class="first-line">
+                                арт-директор города Innopolis
+                                
+                            </div>
+                            <div class="second-line">
+                                Сабит Кадыров
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="review">
+                        <p>
+                            А вы можете сами придумать себе отзыв? Я под этим подпишусь! 
+                        </p>
+                    </div>
+    
+                    <div class="author">
+                        <div class="pic">
+    
+                        </div>
+                        <div class="name">
+                            <div class="first-line">
+                                арт-директор города Innopolis
+                                
+                            </div>
+                            <div class="second-line">
+                                Сабит Кадыров
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="review">
+                        <p>
+                            А вы можете сами придумать себе отзыв? Я под этим подпишусь! 
+                        </p>
+                    </div>
+    
+                    <div class="author">
+                        <div class="pic">
+    
+                        </div>
+                        <div class="name">
+                            <div class="first-line">
+                                арт-директор города Innopolis
+                                
+                            </div>
+                            <div class="second-line">
+                                Сабит Кадыров
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="review">
+                        <p>
+                            А вы можете сами придумать себе отзыв? Я под этим подпишусь! 
+                        </p>
+                    </div>
+    
+                    <div class="author">
+                        <div class="pic">
+    
+                        </div>
+                        <div class="name">
+                            <div class="first-line">
+                                арт-директор города Innopolis
+                                
+                            </div>
+                            <div class="second-line">
+                                Сабит Кадыров
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="review">
+                        <p>
+                            А вы можете сами придумать себе отзыв? Я под этим подпишусь! 
+                        </p>
+                    </div>
+    
+                    <div class="author">
+                        <div class="pic">
+                            
+                        </div>
+                        <div class="name">
+                            <div class="first-line">
+                                арт-директор города Innopolis
+                                
+                            </div>
+                            <div class="second-line">
+                                Сабит Кадыров
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+    
+        </div>
+       
+    </section>
+    <section class="team">
+      <img src="/assets/images/team.png" alt="Мы!" />
+    </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="js/jquery.animateTyping.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function(){
+            setTimeout(function(){
+                $('.preloader').addClass('hidden');
+            },1000)
+        })
+        var swiper = new Swiper(".reviews", {
+          slidesPerView: 4,
+          spaceBetween: 30, 
+          autoplay: {
+            delay: 3000,
+          },
+          breakpoints: {
+            // when window width is >= 320px
+            320: {
+              slidesPerView: 1,
+              spaceBetween: 16
+            },
+            // when window width is >= 480px
+            768: {
+              slidesPerView: 2,
+              spaceBetween: 30
+            },
+            // when window width is >= 640px
+            992: {
+              slidesPerView: 4,
+              spaceBetween: 40
+            }
+          }
+        });
+     
+        $('.menu-button').click(function(){
+            
+            if (!$(this).parents('.menu-item').hasClass('open'))
+            {
+                $('.menu-item').removeClass('open')
+                $(this).parents('.menu-item').addClass('open')
+            }
+            else{
+                $(this).parents('.menu-item').removeClass('open')
+            }
+            
+        });
+
+
+            var time = 2,
+  cc = 1;
+
+const showCursor = (elementTyping, index, speed) => {
+    // Seperate each element by adding an index attribute to them to reach individual speed for each of them
+    elementTyping.attr('data-animate-index', index);
+    // The cursor be shown just by adding a CSS pseudo-element(::after) and animate that
+    $('head').append(`
+       <style>
+           .animate-typing[data-animate-index="${index}"]::after {
+               content: '|';
+               animation: animateCursor ${speed}ms infinite alternate cubic-bezier(.68,-0.55,.27,1.55);
+           }
+       </style>
+   `);
+}
+
+const typeText = (elementTyping, text, speed, delay) =>
+new Promise(resolve =>
+    // Use setTimeout to controll the delay before starting
+    setTimeout(() => {
+        var charIndex = 0;
+        var typing = setInterval(() => {
+            elementTyping.text(text.substr(0, ++charIndex));
+            if (charIndex == text.length) {
+                clearInterval(typing);
+                return resolve();
+            }
+        }, speed);
+    }, delay));
+
+
+$(window).scroll(function(){
+    var height = $(window).scrollTop();
+             /*Если сделали скролл на 100px задаём новый класс для header*/
+            if(height > 10){
+            $('header').addClass('fixed');
+            } else{
+            /*Если меньше 100px удаляем класс для header*/
+            $('header').removeClass('fixed');
+            }
+    $('.indicators').each(function() {
+        var
+          cPos = $(this).offset().top,
+          topWindow = $(window).scrollTop();
+        if (cPos < topWindow + 800) {
+          if (cc < 2) {
+            $(".indicators__counter").addClass("viz");
+            $('span').each(function() {
+              var
+                i = 1,
+                num = $(this).data('num'),
+                step = 1000 * time / num,
+                that = $(this),
+                int = setInterval(function() {
+                  if (i <= num) {
+                    that.html(i);
+                  } else {
+                    cc = cc + 2;
+                    clearInterval(int);
+                  }
+                  i++;
+                }, step);
+            });
+          }
+        }
+      });
+
+    let txt= $('.text-write'),
+    txtOf=txt.offset().top,
+    topWindow = $(window).scrollTop();
+    if (txtOf < topWindow + 800) {
+       if (!$(txt).hasClass('written')){
+        $(txt).addClass('written');
+        $('.blinking-cursor').addClass('active');
+        $(txt).each(function (index) {
+        const elementTyping = $(this);
+        // The speed of typing each character
+        const typeSpeed = +elementTyping.data('type-speed') || 200;
+        // The delay before start to type
+        const typeDelay = +elementTyping.data('type-delay') || 200;
+        // The speed of removing each character
+        const removeSpeed = +elementTyping.data('remove-speed') || 50;
+        // The delay before start to remove
+        const removeDelay = +elementTyping.data('remove-delay') || 500;
+        // The speed of animate cursor
+        const cursorSpeed = +elementTyping.data('cursor-speed') || 300;
+        // If the loop equals to true, iterate through animation sub-texts will be infinity
+        const loop = elementTyping.data('animate-loop') || false;
+        // Convert the initialized text to sub-texts
+        const textList = elementTyping.text().split('|');
+        // Make the element clear from text
+        elementTyping.text('');
+
+        // Show the animated cursor at the end of text
+        showCursor(elementTyping, index, cursorSpeed);
+
+        // Iterate to sub-texts for animating
+        // Use async/await because each iteration must wait for each animation to be done
+        (async () => {
+            var cycle = 0;
+            // Use do/while because the iteration for all sub-texts must be run at least once
+            do {
+                // Iterate for each sub-text
+                for (let subText of textList) {
+                    if (cycle++)
+                        await removeText(elementTyping, removeSpeed, removeDelay);
+                    if(subText.trim())
+                        await typeText(elementTyping, subText.trim(), typeSpeed, typeDelay)
+                }
+                // Set loop to true to iterate animate typing for sub-texts Infinity
+            } while (loop);
+        })();
+    })
+}
+}
+})
+      </script>  
+    
+</body>
+</html>
